@@ -1,5 +1,13 @@
 # Claves asimétricas SSH + Conexión remota
 
+- [Estrucutura de la red](#estructura-de-la-red)
+- [Generamos las claves asimétricas](#1-generamos-las-claves-asimétricas-para-ssh)
+- [Añadimos la clave al servidor](#2-añadir-la-clave-pública-al-servidor)
+  - [Explicación de las claves](#explicación)
+  - [Windows](#🪟-windows)
+  - [Linux](#🐧-linux)
+- [Probamos la conexión](#3-probamos-a-conectarnos-al-servidor-sin-introducir-la-contraseña)
+
 ## Estructura de la red.
 
 Tenemos 2 servidores virtualizados con VirtualBox conectados en una Red NAT, con la siguiente redirección de puertos.
